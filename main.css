@@ -72,14 +72,10 @@ nav li a:hover {
 }
 
 header {
-    /*    background: url("images/aqueduct-banner-small.jpg") no-repeat top center;*/
+
     background-size: cover;
     width: 100%;
     color: ghostwhite;
-    /*
-    height: 500px;
-    margin-top: 70px;
-*/
     position: relative;
 }
 
