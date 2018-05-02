@@ -64,7 +64,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    /*    color: white;*/
+    color: black;
 }
 
 nav li a:hover {
@@ -109,7 +109,7 @@ section.about-me img {
 }
 
 section.skills {
-    background-color: #F4F3F5;
+    background-color: #ECF2F3;
 }
 
 .section-container {
@@ -136,7 +136,7 @@ section h3 {
 
 section p {
     padding-top: 10px;
-    font-size: 1rem;
+    font-size: 18px;
     padding-bottom: 20px;
 }
 
@@ -152,19 +152,20 @@ section.skills .skills-container {
 }
 
 .skills-container img {
-    width: 50%;
-    height: auto;
+    width: 170px;
+    height: 145px;
+    padding: 1.5rem;
 }
 
-/*
+
 section.skills .skills-container img {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     padding-bottom: 1rem;
-}*/
+}
 
 section.projects .project-container {
-    background-color: #F4F3F5;
+    background-color: #ECF2F3;
     margin-bottom: 15px;
     padding: 15px;
 }
@@ -178,7 +179,7 @@ section.projects .project-container {
 section.projects .project-container h6 {
     font-family: 'Abel', sans-serif;
     font-size: 1rem;
-    border-bottom: 2px solid #25945C;
+    border-bottom: 2px solid black;
     padding-bottom: 3px;
 }
 
@@ -194,8 +195,9 @@ section.projects .project-container li {
     padding-left: 6px;
     padding-right: 6px;
     margin-bottom: 7px;
-    border: 2px solid #FBA332;
+    border: 2px solid black;
     font-family: 'Abel', sans-serif;
+    background: ghostwhite;
 }
 
 section.projects .project-container a {
@@ -203,8 +205,8 @@ section.projects .project-container a {
     padding-top: 5px;
     padding-bottom: 5px;
     display: inline-block;
-    background-color: #40955d;
-    color: #F4F3F5;
+    background-color: #5CC0DE;
+    color: #f3fafe;
     margin-top: 10px;
     margin-right: 5px;
     width: 90px;
@@ -213,7 +215,7 @@ section.projects .project-container a {
 }
 
 section.contact {
-    background-color: #F4F3F5;
+    background-color: #f3fafe;
 }
 
 section.contact h3 {
@@ -238,7 +240,7 @@ section.contact li a {
 
 footer {
     text-align: center;
-    background-color: #006633;
+    background-color: #5CC0DE;
     color: white;
     display: block;
     clear: both;
