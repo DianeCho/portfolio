@@ -214,6 +214,10 @@ section.projects .project-container a {
     font-family: 'Abel', sans-serif;
 }
 
+.projects a:hover {
+    opacity: 0.8;
+}
+
 section.contact {
     background-color: #f3fafe;
 }
