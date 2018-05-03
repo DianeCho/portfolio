@@ -21,11 +21,12 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
-h1#logo {
+#logo {
     font-family: 'Dancing Script', cursive;
     display: inline-block;
     font-size: 40px;
     margin-left: 30px;
+    color: black;
 }
 
 nav {
@@ -80,7 +81,7 @@ header h1 {
     font-size: 2rem;
     font-family: 'Abel', sans-serif;
     position: absolute;
-    bottom: 35rem;
+    top: 10rem;
     right: 1rem;
 }
 
@@ -95,9 +96,15 @@ section {
     font-size: .85rem;
 }
 
+section.heroImage img {
+    width: 100%;
+}
+
 section.about-me img {
     float: right;
     padding-bottom: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
 }
 
 section.skills {
@@ -144,7 +151,6 @@ section.skills .skills-container {
 }
 
 .skills-container img {
-    width: 170px;
     height: 145px;
     padding: 1.5rem;
 }
@@ -177,7 +183,7 @@ section.projects .project-container h6 {
 
 section.projects .project-container ul {
     margin-top: 10px;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 section.projects .project-container li {
@@ -215,23 +221,9 @@ section.contact {
 }
 
 section.contact h3 {
-    text-align: center;
-    color: black;
-}
-
-section.contact ul {
-    text-align: center;
-}
-
-section.contact li {
-    display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-section.contact li a {
-    font-size: 4rem;
-    color: #5CC0DE;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
 }
 
 footer {
@@ -242,4 +234,19 @@ footer {
     clear: both;
     font-size: .8rem;
     padding: 10px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer li a {
+    font-size: 3rem;
+    color: white;
 }
