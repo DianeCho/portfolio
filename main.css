@@ -193,8 +193,9 @@ section.projects .project-container li {
     padding-left: 6px;
     padding-right: 6px;
     margin-bottom: 7px;
-    border: 2px solid black;
-    font-family: 'Abel', sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: 'Rajdhani', sans-serif;
     background: ghostwhite;
 }
 
@@ -210,6 +211,7 @@ section.projects .project-container a {
     width: 90px;
     text-align: center;
     font-family: 'Abel', sans-serif;
+    border-radius: 5px;
 }
 
 .projects a:hover {

@@ -31,6 +31,6 @@ $('#nav-projects').on('click', function (event) {
 // Contact
 $('#nav-contact').on('click', function (event) {
     $('html, body').animate({
-        scrollTop: $("section.contact").offset().top
+        scrollTop: $("footer").offset().top
     });
 })
